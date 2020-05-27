@@ -1,0 +1,142 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+}
+
+/* heading */
+.large-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.section-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  }
+p{
+  color: #8f8f8f;
+  font-weight: lighter;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* navigation bar */
+.navbar{
+  padding: 0 0 5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* Phone image */
+.Iphone-image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 35%;
+}
+@media (max-width: 1028px){
+  .Iphone-image{
+    position: static;
+    transform: rotate(0);
+    }
+#title {
+  text-align: center;
+}
+
+}
+/* Feature section */
+.feature-title{
+font-size: 1.5rem;
+}
+#features {
+  background-color: #fff;
+
+  position: relative;
+}
+.feature-box{
+  padding: 5%
+}
+.fas{
+  color: #ef1872;
+  margin-bottom: 1rem;
+}
+.fas:hover {
+  color: #ef8172;
+}
+
+/* Testimonial section */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 5%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height:1.5;
+}
+/* call to action */
+#action{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.action-heading{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* footer section */
+#footer{
+  font-family: sans-serif;
+}
+.Social-sites{
+  margin: 20px 10px;
+}
